@@ -1,0 +1,1741 @@
+@font-face {
+  font-family: 'Dr Sugiyama';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dr Sugiyama Regular'), local('DrSugiyama-Regular'), url(http://fonts.gstatic.com/s/drsugiyama/v5/rq_8251Ifx6dE1Mq7bUM6ag5eI2G47JWe0-AuFtD150.woff2) format('woff2'), url(http://fonts.gstatic.com/s/drsugiyama/v5/rq_8251Ifx6dE1Mq7bUM6dIh4imgI8P11RFo6YPCPC0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/PfybUH-csLekLIU-pU-o7w.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/uYKcPVoh6c5R0NpdEY5A-Q.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSvk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNShsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v10/EInbV5DfGHOiMmvb1Xr-hvk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/EInbV5DfGHOiMmvb1Xr-hhsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxv_WzOtAn2bfVruHu-Zkc1M.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxv25ds880Du_gFZbUlZlsbg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v10/O4NhV7_qs9r9seTo7fnsVFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/O4NhV7_qs9r9seTo7fnsVD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxqlOhQlYMpSP_jOMlhRZeS8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxsUW6j0fiq4_bYOAoMNnBhA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxu1D72Odf4OjIqZb-Gnl-lg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxpXMLUeV6_io0G3F6eXSVcg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxlGuwWeCs0AsDtF_gHl2FNg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxjZJchHK-lPtiIaM3GRtbZU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://fonts.gstatic.com/s/roboto/v15/xookM-L8yP33NJ7966OySA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/MMDEOSa6i6T9gBocjYCJkQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://fonts.gstatic.com/s/roboto/v15/El-bgsteBznJNL5pgUfFLA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/d-QWLnp4didxos_6urzFtg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(http://fonts.gstatic.com/s/roboto/v15/N5Lbe1fynPA1KT8BFvAiGw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/grlryt2bdKIyfMSOhzd1eA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(http://fonts.gstatic.com/s/roboto/v15/Op9nD2u96-RO01_6Io91EA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/7KXg6nyyqN8gyMoNwQ7aOQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(http://fonts.gstatic.com/s/roboto/v15/tZdhd9Zzj0I2MwoD56osIw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/vxNK-E6B13CyehuDCmvQvw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(http://fonts.gstatic.com/s/roboto/v15/bHb1QXRvBr78bu2XNI1xvw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/1_sFLBJZ_MiiGcnkjN_Mgg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(http://fonts.gstatic.com/s/roboto/v15/lFe6iyon-IsILqabEIIN8vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/jB4HYzUnEmLtjz-UHQe60fesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(http://fonts.gstatic.com/s/roboto/v15/iE8HhaRzdhPxC93dOdA051tXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/iE8HhaRzdhPxC93dOdA05z8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(http://fonts.gstatic.com/s/roboto/v15/UbXx3E_TVHvOc89N28P2jA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/biUEjW7P-lfzIZFXrcy-wQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(http://fonts.gstatic.com/s/roboto/v15/daIfzbEw-lbjMyv4rMUUTltXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/daIfzbEw-lbjMyv4rMUUTj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(http://fonts.gstatic.com/s/roboto/v15/owYYXKukxFDFjr0ZO8NXh1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/owYYXKukxFDFjr0ZO8NXhz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(http://fonts.gstatic.com/s/roboto/v15/b9PWBSMHrT2zM5FgUdtu0VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v15/b9PWBSMHrT2zM5FgUdtu0T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Rochester';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rochester'), local('Rochester-Regular'), url(http://fonts.gstatic.com/s/rochester/v6/nE50b4-SbQ54pks-8vOpl1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/rochester/v6/nE50b4-SbQ54pks-8vOplz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+* {
+  position: relative;
+}
+body {
+  font-size: 16px;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-corn_cc:before,
+.btn-corn_cr:before,
+.btn-corn_cl:before,
+.btn-corn_cc:after,
+.btn-corn_cr:after,
+.btn-corn_cl:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 10px;
+  border-color: rgba(255, 255, 255, 0);
+  height: 0;
+  width: 0;
+  top: 0;
+}
+.btn-corn_cc:before,
+.btn-corn_cr:before,
+.btn-corn_cl:before {
+  left: -10px;
+  border-left: 0;
+}
+.btn-corn_cc:after,
+.btn-corn_cr:after,
+.btn-corn_cl:after {
+  right: -10px;
+  border-right: 0;
+}
+.btn-corn_cc {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.btn-corn_cc.btn-mint:before {
+  border-right-color: #29cccc;
+}
+.btn-corn_cc.btn-mint:after {
+  border-left-color: #26c3c3;
+}
+.btn-corn_cc.btn-mint:hover:before,
+.btn-corn_cc.btn-mint:active:before,
+.btn-corn_cc.btn-mint:focus:before {
+  border-right-color: #26bfbf;
+}
+.btn-corn_cc.btn-mint:hover:after,
+.btn-corn_cc.btn-mint:active:after,
+.btn-corn_cc.btn-mint:focus:after {
+  border-left-color: #24b6b6;
+}
+.btn-corn_cc.btn-light-gray:before {
+  border-right-color: #e5e5e5;
+}
+.btn-corn_cc.btn-light-gray:after {
+  border-left-color: #d9dbdb;
+}
+.btn-corn_cc.btn-light-gray:hover:before,
+.btn-corn_cc.btn-light-gray:active:before,
+.btn-corn_cc.btn-light-gray:focus:before {
+  border-right-color: #dddddd;
+}
+.btn-corn_cc.btn-light-gray:hover:after,
+.btn-corn_cc.btn-light-gray:active:after,
+.btn-corn_cc.btn-light-gray:focus:after {
+  border-left-color: #d1d4d4;
+}
+.btn-corn_cr {
+  margin-right: 10px;
+}
+.btn-corn_cr:before {
+  display: none;
+}
+.btn-corn_cr.btn-mint:after {
+  border-left-color: #26c3c3;
+}
+.btn-corn_cr.btn-mint:hover:after,
+.btn-corn_cr.btn-mint:active:after,
+.btn-corn_cr.btn-mint:focus:after {
+  border-left-color: #24b6b6;
+}
+.btn-corn_cr.btn-light-gray:after {
+  border-left-color: #d9dbdb;
+}
+.btn-corn_cr.btn-light-gray:hover:after,
+.btn-corn_cr.btn-light-gray:active:after,
+.btn-corn_cr.btn-light-gray:focus:after {
+  border-left-color: #d1d4d4;
+}
+.btn-corn_cl {
+  margin-left: 10px;
+}
+.btn-corn_cl:after {
+  display: none;
+}
+.btn-corn_cl.btn-mint:before {
+  border-right-color: #29cccc;
+}
+.btn-corn_cl.btn-mint:hover:before,
+.btn-corn_cl.btn-mint:active:before,
+.btn-corn_cl.btn-mint:focus:before {
+  border-right-color: #26bfbf;
+}
+.btn-corn_cl.btn-light-gray:before {
+  border-right-color: #e5e5e5;
+}
+.btn-corn_cl.btn-light-gray:hover:before,
+.btn-corn_cl.btn-light-gray:active:before,
+.btn-corn_cl.btn-light-gray:focus:before {
+  border-right-color: #dddddd;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+.input-group-lg .btn.btn-corn_cc:before,
+.btn-group-lg .btn .btn-lg.btn-corn_cc:before,
+.input-group-lg .btn.btn-corn_cr:before,
+.btn-group-lg .btn .btn-lg.btn-corn_cr:before,
+.input-group-lg .btn.btn-corn_cl:before,
+.btn-group-lg .btn .btn-lg.btn-corn_cl:before,
+.input-group-lg .btn.btn-corn_cc:after,
+.btn-group-lg .btn .btn-lg.btn-corn_cc:after,
+.input-group-lg .btn.btn-corn_cr:after,
+.btn-group-lg .btn .btn-lg.btn-corn_cr:after,
+.input-group-lg .btn.btn-corn_cl:after,
+.btn-group-lg .btn .btn-lg.btn-corn_cl:after {
+  border-top-width: 25px;
+  border-bottom-width: 25px;
+}
+i:not([class^='icon-']) {
+  font-family: Georgia, serif;
+  font-size: 1.1em;
+  color: #666666;
+}
+a {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+a:before,
+a:after {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.tu {
+  text-transform: uppercase;
+}
+header .navbar {
+  margin: 0;
+  border: 0;
+  z-index: 100;
+  padding: 20px 0;
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+header .navbar.animated {
+  visibility: visible;
+}
+header .navbar:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  content: '';
+}
+header .navbar .navbar-brand {
+  color: #73e5e5;
+  position: relative;
+  line-height: 1;
+  z-index: 2;
+  top: -7px;
+}
+header .navbar .navbar-brand:hover,
+header .navbar .navbar-brand:focus {
+  color: #c9f5f5;
+  background-color: transparent;
+}
+header .navbar .navbar-nav > li > a {
+  position: relative;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  color: #f7f7f7;
+  text-transform: uppercase;
+  outline: none;
+  margin: 0 10px;
+  padding: 10px;
+}
+header .navbar .navbar-nav > li > a:before,
+header .navbar .navbar-nav > li > a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 10px;
+  border-color: rgba(255, 255, 255, 0);
+  height: 0;
+  width: 0;
+  top: 0;
+}
+header .navbar .navbar-nav > li > a:before {
+  left: -10px;
+  border-left: 0;
+}
+header .navbar .navbar-nav > li > a:after {
+  right: -10px;
+  border-right: 0;
+}
+header .navbar .navbar-nav > li > a:hover,
+header .navbar .navbar-nav > li > a:focus {
+  -webkit-text-shadow: none;
+  text-shadow: none;
+  color: #29cccc;
+  background-color: transparent;
+}
+header .navbar .navbar-nav > .active > a,
+header .navbar .navbar-nav > .active > a:hover,
+header .navbar .navbar-nav > .active > a:focus {
+  color: #f7f7f7;
+  background-color: #29cccc;
+  background-image: url(http://ledgard.le-genda.com/img/blik.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .navbar .navbar-nav > .active > a:before,
+header .navbar .navbar-nav > .active > a:hover:before,
+header .navbar .navbar-nav > .active > a:focus:before {
+  border-right-color: #29cccc;
+}
+header .navbar .navbar-nav > .active > a:after,
+header .navbar .navbar-nav > .active > a:hover:after,
+header .navbar .navbar-nav > .active > a:focus:after {
+  border-left-color: #26c3c3;
+}
+header .navbar .navbar-nav > .disabled > a,
+header .navbar .navbar-nav > .disabled > a:hover,
+header .navbar .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+header .navbar .navbar-toggle {
+  border-color: #73e5e5;
+}
+header .navbar .navbar-toggle:hover,
+header .navbar .navbar-toggle:focus {
+  background-color: #73e5e5;
+}
+header .navbar .navbar-toggle .icon-bar {
+  background-color: #29cccc;
+}
+header .navbar .in,
+header .navbar .collapsing {
+  margin-top: 20px;
+  background-color: rgba(30, 30, 30, 0.85);
+  float: right;
+}
+header .navbar .in > .navbar-nav,
+header .navbar .collapsing > .navbar-nav {
+  margin: 10px 0;
+}
+header .navbar.white:before {
+  background-color: #f7f7f7;
+}
+header .navbar.white .navbar-nav > li:not(.active) > a:not(:hover) {
+  -webkit-text-shadow: none;
+  text-shadow: none;
+  color: #666;
+}
+header .navbar.white .navbar-brand {
+  color: #29cccc;
+}
+header .navbar.white .in,
+header .navbar.white .collapsing {
+  background-color: #f7f7f7;
+}
+.section {
+  position: relative;
+  min-height: 60px;
+  padding: 40px 0 80px;
+  -webkit-text-shadow: 0 1px 0 #ffffff;
+  text-shadow: 0 1px 0 #ffffff;
+  overflow: hidden;
+}
+.section .container {
+  position: relative;
+}
+.section .marker {
+  position: absolute;
+  left: -1px;
+  top: -80px;
+  height: 1px;
+  width: 1px;
+}
+.section h1 {
+  margin: 0 0 36px;
+  color: #36b3b3;
+  text-align: center;
+}
+.section h2,
+.section h3,
+.section h4 {
+  font-weight: 300;
+}
+.section .separate {
+  height: 16px;
+  margin: 30px 0;
+  background: url(http://ledgard.le-genda.com/img/separate.png) center no-repeat;
+}
+.section .intro-text {
+  margin: 0 0 40px;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 18px;
+  font-family: 'Georgia', sans-serif;
+  font-style: italic;
+  color: #666666;
+}
+.section .intro-text:after {
+  content: '***';
+  display: block;
+  margin-top: 10px;
+}
+.section.home {
+  padding: 0;
+}
+.section.about {
+  text-align: center;
+}
+.section.about h3 {
+  color: #666666;
+  margin-top: 0;
+}
+.section.about .col-sm-4 {
+  margin-top: 20px;
+}
+.section.about .about__icon {
+  display: block;
+  margin: 0 auto 30px;
+}
+.section.about .about__service {
+  color: #666666;
+  line-height: 1.5em;
+  margin: 0 40px;
+}
+@media (max-width: 1199px) {
+  .section.about .about__service {
+    margin: 0;
+  }
+}
+.section.about .more {
+  margin-top: 20px;
+}
+.section.testimonial {
+  padding: 80px 0;
+  text-align: center;
+  color: #e1f9f9;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background: url(http://ledgard.le-genda.com/img/testimonial.jpg) center top no-repeat;
+  background-size: cover;
+}
+.section.testimonial:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  background-color: #38b3b3;
+}
+.section.testimonial .separate {
+  background: url(http://ledgard.le-genda.com/img/separate2.png) center no-repeat;
+  margin: 20px 0;
+}
+.section.testimonial .container {
+  padding-bottom: 50px;
+  background: url(http://ledgard.le-genda.com/img/icon-quote.png) center bottom no-repeat;
+}
+.section.testimonial .testimonial__replica {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+}
+.section.testimonial .testimonial__author {
+  font-family: 'Rochester';
+  font-size: 36px;
+}
+.section.testimonial .testimonial__author-post {
+  color: #b3dbdb;
+  margin-bottom: 40px;
+}
+.section.skills .skills__skill {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  line-height: 200px;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: middle;
+  text-align: center;
+}
+.section.skills .skills__skill > canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.section.skills .skills__skill > span {
+  font-size: 3.75em;
+  font-weight: 300;
+}
+.section.skills .skills__skill:after {
+  content: "%";
+  margin-right: -0.7em;
+  font-size: 1.875em;
+}
+.section.skills .separate {
+  margin-bottom: 40px;
+}
+.section.skills .col-md-3:nth-child(1) .skills__skill {
+  color: #36b3b3;
+}
+.section.skills .col-md-3:nth-child(2) .skills__skill {
+  color: #4371cc;
+}
+.section.skills .col-md-3:nth-child(3) .skills__skill {
+  color: #7e58cc;
+}
+.section.skills .col-md-3:nth-child(4) .skills__skill {
+  color: #ca29ca;
+}
+.section.skills h5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0 0;
+}
+@media (max-width: 991px) {
+  .section.skills {
+    padding-bottom: 40px;
+  }
+  .section.skills h5 {
+    margin: 20px 0 40px;
+  }
+}
+.section.subscribe {
+  color: #f7f7f7;
+  padding: 60px 0;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background: url(http://ledgard.le-genda.com/img/geometry.png) center;
+}
+.section.subscribe:before,
+.section.subscribe:after {
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: url(http://ledgard.le-genda.com/img/edge.png) repeat-x;
+  display: block;
+  height: 5px;
+  content: '';
+}
+.section.subscribe:before {
+  background-position: center bottom;
+  top: 0;
+}
+.section.subscribe:after {
+  background-position: center top;
+  bottom: 0;
+}
+.section.subscribe .input-group input {
+  border-right: none;
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 0 1px #6d47bb;
+  box-shadow: 0 0 0 1px #6d47bb;
+}
+.section.subscribe h3 {
+  margin: 0 0 10px;
+  line-height: 1;
+}
+.section.subscribe p {
+  margin: 0;
+  line-height: 1;
+}
+@media (max-width: 991px) {
+  .section.subscribe h3 {
+    margin: 20px 0 10px;
+  }
+}
+.section.team {
+  text-align: center;
+  padding-bottom: 60px;
+  background-image: -webkit-linear-gradient(top, #fafafa 0, #f0f0f0 100%);
+  background-image: -o-linear-gradient(top, #fafafa 0, #f0f0f0 100%);
+  background-image: linear-gradient(to bottom, #fafafa 0, #f0f0f0 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffafafa', endColorstr='#fff0f0f0', GradientType=0);
+}
+.section.team:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  background: url(http://ledgard.le-genda.com/img/noise.png);
+}
+.section.team:after {
+  content: '';
+  height: 1px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url(http://ledgard.le-genda.com/img/line.png);
+}
+.section.team .team__user {
+  height: 200px;
+  width: 200px;
+  -webkit-box-shadow: 0 1px 0 0 #ffffff;
+  box-shadow: 0 1px 0 0 #ffffff;
+  -webkit-clip-path: circle();
+  clip-path: circle();
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.section.team .team__user > img {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+.section.team h5 {
+  margin: 20px 0;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+.section.team h5 > small {
+  display: block;
+}
+@media (max-width: 991px) {
+  .section.team {
+    padding-bottom: 40px;
+  }
+  .section.team h5 {
+    margin: 20px 0 40px;
+  }
+}
+.section.folio {
+  text-align: center;
+  padding-bottom: 0;
+  overflow-x: visible;
+}
+.section.folio .folio__filter {
+  color: #999999;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.section.folio .folio__filter > a {
+  margin: 0 10px;
+  color: #666666;
+}
+.section.folio .folio__filter > a:hover {
+  color: #36b3b3;
+}
+.section.folio .folio__works {
+  margin: 0 -15px;
+  overflow-y: hidden;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  color: #cef2f2;
+}
+.section.folio .folio__work {
+  width: 16.66%;
+  max-width: 400px;
+  max-height: 300px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: #36b3b3;
+  background-size: 100%;
+}
+.section.folio .folio__work > img {
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+  display: block;
+  width: 100%;
+}
+.section.folio .folio__work-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  padding: 20px;
+  text-align: center;
+  visibility: hidden;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: rgba(0, 180, 180, 0.6);
+}
+.section.folio .folio__work-overlay:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  background: url(http://ledgard.le-genda.com/img/zoom.png) center no-repeat;
+}
+.section.folio .folio__work-overlay > a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+.section.folio .folio__work h3 {
+  height: 3em;
+  margin-top: 50%;
+  overflow: hidden;
+  line-height: 1.5em;
+  white-space: nowrap;
+}
+.section.folio .folio__work h3 > small {
+  display: block;
+  color: #8ae5e5;
+}
+.section.folio .folio__work:hover > img {
+  filter: blur(7px);
+  -moz-filter: blur(7px);
+  -webkit-filter: blur(7px);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.section.folio .folio__work:hover .folio__work-overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  visibility: visible;
+}
+@media (max-width: 1930px) {
+  .section.folio .folio__work {
+    width: 20%;
+  }
+}
+@media (max-width: 1199px) {
+  .section.folio .folio__work {
+    width: 25%;
+  }
+}
+@media (max-width: 992px) {
+  .section.folio .folio__work {
+    width: 33.33%;
+  }
+}
+@media (max-width: 768px) {
+  .section.folio .folio__work {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .section.folio .folio__work {
+    width: 100%;
+  }
+}
+.section.folio .more {
+  margin: 40px 0;
+}
+.section.blog {
+  line-height: 1.875em;
+}
+.section.blog .post {
+  word-wrap: break-word;
+}
+.section.blog .post__img {
+  padding-top: 5px;
+  text-align: center;
+}
+.section.blog .post__img > img {
+  max-width: 100%;
+}
+.section.blog .post__tags,
+.section.blog .post__info {
+  color: #999999;
+}
+.section.blog .post__tags > a,
+.section.blog .post__info > a,
+.section.blog .post__tags > span:not(:first-child),
+.section.blog .post__info > span:not(:first-child) {
+  color: #999999;
+  margin-left: 10px;
+}
+.section.blog .post__tags span > i,
+.section.blog .post__info span > i,
+.section.blog .post__tags a > i,
+.section.blog .post__info a > i {
+  margin-right: 5px;
+}
+.section.blog .post__tags a:hover,
+.section.blog .post__info a:hover {
+  color: #36b3b3;
+}
+.section.blog .post__more {
+  margin-top: 20px;
+}
+.section.blog .post h2 {
+  margin: 0 0 20px;
+}
+.section.blog .post p {
+  margin-bottom: 15px;
+}
+.section.blog#blog {
+  margin-top: 80px;
+}
+.section.blog#blog .post {
+  word-wrap: break-word;
+  margin-bottom: 80px;
+}
+.section.blog#blog .post ul,
+.section.blog#blog .post ol {
+  margin: 20px 0;
+}
+.section.blog#blog .post.post-quote {
+  margin: -40px 0 40px;
+}
+.section.blog#blog .post .post-quote {
+  margin-right: -30px;
+  margin-left: -50%;
+  left: -30px;
+}
+@media (max-width: 991px) {
+  .section.blog#blog .post .post__img {
+    margin-bottom: 10px;
+  }
+  .section.blog#blog .post-quote {
+    margin-top: 0;
+  }
+  .section.blog#blog .post .post-quote {
+    margin-right: -15px;
+    left: -15px;
+  }
+}
+@media (max-width: 768px) {
+  .section.blog#blog .post .post-quote {
+    margin-right: 0;
+    margin-left: 0;
+    left: auto;
+  }
+}
+.section.blog#blog .post-quote {
+  margin: 40px 0;
+  background-color: #e4f0f0;
+  -webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.section.blog#blog .post-quote:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  background: url(http://ledgard.le-genda.com/img/noise.png);
+}
+.section.blog#blog .post-quote blockquote {
+  border: 0;
+  padding: 30px 40px 20px;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 18px;
+  font-family: 'Georgia', sans-serif;
+  font-style: italic;
+  color: #666666;
+}
+.section.blog#blog .post-quote blockquote:before,
+.section.blog#blog .post-quote blockquote:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(http://ledgard.le-genda.com/img/edge2.png) repeat-y;
+  width: 5px;
+  bottom: 0;
+  top: 0;
+}
+.section.blog#blog .post-quote blockquote:before {
+  left: 0;
+  background-position: right 1px;
+}
+.section.blog#blog .post-quote blockquote:after {
+  right: 0;
+  background-position: left 1px;
+}
+.section.blog .blog__contet {
+  float: right;
+}
+@media (max-width: 991px) {
+  .section.blog .blog__contet {
+    float: none;
+  }
+}
+.section.blog .sidebar h3 {
+  color: #aaa;
+  font-size: 1.875em;
+  margin: 0 0 20px;
+}
+.section.blog .sidebar ul {
+  padding: 0;
+  font-size: 18px;
+  margin: 0 0 40px;
+  list-style: none;
+  color: #aaa;
+}
+.section.blog .sidebar ul > li {
+  padding-left: 40px;
+  vertical-align: top;
+  margin: 10px 0;
+}
+.section.blog .sidebar ul > li:before {
+  content: 'â€”';
+  vertical-align: top;
+  display: inline-block;
+  margin: auto 10px auto -40px;
+}
+.section.blog .sidebar ul > li > a {
+  display: inline-block;
+  color: #666666;
+}
+.section.blog .sidebar ul > li > a:hover {
+  color: #36b3b3;
+}
+.section.blog .sidebar ul > li.active > a {
+  color: #36b3b3;
+}
+@media (max-width: 991px) {
+  .section.blog .sidebar ul {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 991px) {
+  .section.blog .sidebar {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .section.blog .sidebar .col-xs-6 {
+    margin-top: 40px;
+  }
+}
+.section.blog .pager {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: left;
+  color: #ccc;
+}
+.section.blog .pager > li:not(:last-child) {
+  margin-right: 20px;
+}
+.section.blog .pager a {
+  border: none;
+  background: none;
+  padding: 0;
+}
+.section.blog .pager a > u {
+  font-family: 'Times New Roman', serif;
+  text-decoration: none;
+}
+.section.blog .pager .disabled a {
+  color: #ccc;
+}
+.section.blog .comments {
+  margin: 40px 0 0;
+}
+.section.blog .comments h2 {
+  margin: 0 0 20px;
+  color: #999999;
+}
+.section.blog .comments h2 > small {
+  color: #36b3b3;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.section.blog .comments h2 > small:hover {
+  text-decoration: underline;
+}
+.section.blog .comments h2 > small > i {
+  font-size: 0.8em;
+  margin-right: 5px;
+}
+.section.blog .comments #add-comment {
+  display: none;
+}
+.section.blog .comments textarea {
+  height: 150px;
+}
+.section.blog .comment {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 100px;
+}
+@media (min-width: 991px) {
+  .section.blog .comment.comment__level-2 {
+    margin-left: 50px;
+  }
+  .section.blog .comment.comment__level-3 {
+    margin-left: 100px;
+  }
+  .section.blog .comment.comment__level-4 {
+    margin-left: 150px;
+  }
+  .section.blog .comment.comment__level-5 {
+    margin-left: 200px;
+  }
+}
+@media (min-width: 1199px) {
+  .section.blog .comment.comment__level-2 {
+    margin-left: 100px;
+  }
+  .section.blog .comment.comment__level-3 {
+    margin-left: 200px;
+  }
+  .section.blog .comment.comment__level-4 {
+    margin-left: 300px;
+  }
+  .section.blog .comment.comment__level-5 {
+    margin-left: 400px;
+  }
+}
+.section.blog .comment__head {
+  padding-top: 1px;
+}
+.section.blog .comment .avatar {
+  float: left;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin-left: -100px;
+  -webkit-clip-path: circle();
+  clip-path: circle();
+  border-radius: 50%;
+}
+.section.blog .comment .avatar > img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.section.blog .comment h5 {
+  font-weight: 600;
+  margin: 20px 0 0;
+}
+.section.blog .comment__time {
+  margin-bottom: 20px;
+  color: #999999;
+  font-size: 0.9em;
+  display: block;
+}
+.section.blog .comment__replay {
+  text-align: right;
+}
+.section.blog .comment__replay a > i {
+  margin-right: 5px;
+  top: 1px;
+}
+.section.contacts {
+  padding: 1px 0 0;
+  background: url(http://ledgard.le-genda.com/img/line.png) repeat-x;
+}
+.section.contacts .map {
+  height: 600px;
+  z-index: 0;
+}
+.section.contacts .map:before {
+  content: '';
+  height: 1px;
+  background: url(http://ledgard.le-genda.com/img/line.png) repeat-x;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.section.contacts .map:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  content: '';
+}
+.section.contacts .container {
+  margin-top: -560px;
+  height: 560px;
+}
+.section.contacts .contacts__panel {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 40px 30px;
+  margin: 0 0 0 -15px;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  background-image: -webkit-linear-gradient(top, rgba(250, 250, 250, 0.75) 0, #f7f7f7 100%);
+  background-image: -o-linear-gradient(top, rgba(250, 250, 250, 0.75) 0, #f7f7f7 100%);
+  background-image: linear-gradient(to bottom, rgba(250, 250, 250, 0.75) 0, #f7f7f7 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bffafafa', endColorstr='#fff7f7f7', GradientType=0);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.section.contacts .contacts__panel:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  background: url(http://ledgard.le-genda.com/img/noise.png);
+}
+@media (max-width: 992px) {
+  .section.contacts .contacts__panel {
+    left: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .section.contacts .contacts__panel {
+    left: 33.33%;
+  }
+}
+@media (max-width: 768px) {
+  .section.contacts .contacts__panel {
+    left: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .section.contacts .contacts__panel {
+    left: 0;
+    margin-left: 0;
+  }
+}
+.section.contacts .contacts__envelope {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 4em;
+  color: #e6e6e6;
+}
+@media (max-width: 767px) {
+  .section.contacts .contacts__envelope {
+    display: none;
+  }
+}
+.section.contacts h3 {
+  margin: 30px 0 20px;
+}
+.section.contacts textarea {
+  height: 120px;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+@media (max-width: 767px) {
+  .section.contacts textarea {
+    height: 80px;
+  }
+}
+.section.contacts form .row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+.section.contacts form .row > div {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.section.contacts .dl-horizontal {
+  margin-right: 80px;
+}
+.section.contacts .dl-horizontal > dt {
+  float: left;
+  color: #999999;
+  line-height: 1.875em;
+  font-weight: normal;
+  text-align: left;
+  width: 75px;
+}
+.section.contacts .dl-horizontal > dt:after {
+  content: ':';
+}
+.section.contacts .dl-horizontal > dd {
+  line-height: 1.875em;
+  margin-left: 80px;
+}
+@media (max-width: 767px) {
+  .section.contacts .dl-horizontal {
+    margin-right: 0;
+  }
+}
+.section.contacts .soc {
+  top: -5px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.section.contacts .soc li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.section.contacts .soc li a {
+  font-weight: 400;
+  font-style: normal;
+  font-family: icomoon !important;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-right: 7px;
+  color: #ffffff;
+  background-color: none;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.section.contacts .soc li a:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+@media (max-width: 767px) {
+  .section.contacts .soc li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+  }
+}
+.section.contacts .soc-icon-last {
+  margin: 0 !important;
+}
+.section.contacts .soc-twitter {
+  background-color: #4da7de;
+}
+.section.contacts .soc-twitter:before {
+  content: '\e609';
+}
+.section.contacts .soc-github {
+  background-color: #5380c0;
+}
+.section.contacts .soc-github:before {
+  content: '\e602';
+}
+.section.contacts .soc-facebook {
+  background-color: #3e5b98;
+}
+.section.contacts .soc-facebook:before {
+  content: '\e611';
+}
+.section.contacts .soc-pinterest {
+  background-color: #c92619;
+}
+.section.contacts .soc-pinterest:before {
+  content: '\e613';
+}
+.section.contacts .soc-google {
+  background-color: #d93e2d;
+}
+.section.contacts .soc-google:before {
+  content: '\e612';
+}
+footer {
+  background: #f7f7f7;
+}
+footer:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  background: url(http://ledgard.le-genda.com/img/noise.png);
+}
+footer .copyright {
+  margin-left: 50%;
+  font-size: 0.9em;
+  color: #bbb;
+}
+footer .copyright > span {
+  font-family: 'Dr Sugiyama', serif;
+  font-size: 1.5em;
+}
+footer.fo-index {
+  height: 40px;
+}
+footer.fo-index .copyright {
+  top: -18px;
+}
+@media (max-width: 992px) {
+  footer.fo-index .copyright {
+    margin-left: 50%;
+  }
+}
+@media (max-width: 991px) {
+  footer.fo-index .copyright {
+    margin-left: 33.33%;
+  }
+}
+@media (max-width: 768px) {
+  footer.fo-index .copyright {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 480px) {
+  footer.fo-index .copyright {
+    margin-left: 0;
+  }
+}
+footer.fo-blog {
+  padding: 20px 0;
+}
+footer.fo-blog .copyright {
+  top: 3px;
+  padding-left: 15px;
+}
+footer.fo-blog:after {
+  content: '';
+  height: 1px;
+  background: url(http://ledgard.le-genda.com/img/line.png) repeat-x;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+#folioModal {
+  color: #8a9999;
+  -webkit-text-shadow: 0 -1px 0 #000000;
+  text-shadow: 0 -1px 0 #000000;
+  background-color: #161616;
+}
+#folioModal .close {
+  display: block;
+  position: fixed;
+  right: 50px;
+  top: 30px;
+  height: 40px;
+  width: 40px;
+  background: url(http://ledgard.le-genda.com/img/close.png) center no-repeat;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#folioModal .close:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+#folioModal .modal__close {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#folioModal .modal-content {
+  margin: 0;
+  background-color: transparent;
+  min-height: 100%;
+  width: 100%;
+}
+#folioModal .content {
+  height: 100%;
+  padding: 40px;
+  overflow-x: auto;
+  min-height: 100vh;
+  margin-right: 385px;
+  background: url(http://ledgard.le-genda.com/img/folio-back.png);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+#folioModal .content > .work-screen {
+  display: block;
+  margin: 40px auto;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+#folioModal .content > .author {
+  font-size: 1.875em;
+  font-family: 'Dr Sugiyama', serif;
+}
+#folioModal .content > .author a {
+  text-decoration: none;
+}
+#folioModal .sidebar {
+  float: right;
+  width: 385px;
+  line-height: 1.5em;
+  padding: 230px 40px 100px;
+  right: 0;
+}
+@media (max-width: 992px) {
+  #folioModal .content {
+    margin-right: 0;
+  }
+  #folioModal .content > .work-screen {
+    margin: 20px auto;
+  }
+  #folioModal .sidebar {
+    float: none;
+    width: auto;
+    padding: 100px 20px 40px;
+  }
+}
+#folioModal h4 {
+  font-size: 1.25em;
+  color: #36b3b3;
+  line-height: 1.25em;
+}
+#folioModal .dl-horizontal > dt {
+  color: #5c6666;
+  line-height: 1.5em;
+  font-weight: normal;
+  text-align: left;
+  width: 75px;
+}
+#folioModal .dl-horizontal > dt:after {
+  content: ':';
+}
+@media (max-width: 992px) {
+  #folioModal .dl-horizontal > dt {
+    float: left;
+  }
+}
+#folioModal .dl-horizontal > dd {
+  line-height: 1.5em;
+  margin-left: 80px;
+}
+#folioModal .like {
+  text-align: center;
+  vertical-align: middle;
+}
+#folioModal .like > a {
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 2em;
+}
+#folioModal .like i {
+  font-size: 1.8em;
+  vertical-align: middle;
+  text-align: center;
+}
+.fotorama__fullscreen-icon {
+  display: none;
+}
+.fotorama__arr {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  background-image: url(http://ledgard.le-genda.com/img/arrows.png);
+  height: 80px;
+  width: 80px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.fotorama__arr:before {
+  background: url(http://ledgard.le-genda.com/img/noise.png);
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.fotorama__arr:after {
+  background-repeat: no-repeat;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.fotorama__arr:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.fotorama__arr.fotorama__arr--prev {
+  background-position: 0 0;
+}
+.fotorama__arr.fotorama__arr--next {
+  background-position: -80px 0;
+}
+.fotorama__html > div {
+  height: 100%;
+}
+.fotorama__item {
+  background-position: top center;
+  background-size: cover;
+}
+.fotorama__item .blur {
+  position: fixed;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  background-position: top center;
+  background-color: rgba(30, 50, 50, 0.94);
+  background-size: cover;
+}
+.fotorama__item .blur:after {
+  background: url(http://ledgard.le-genda.com/img/noise.png);
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.fotorama__content {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-size: cover;
+  background-position: center;
+  background: url(http://ledgard.le-genda.com/img/gradient.png);
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBjY2NjIiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2MyOGNjIiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(-72deg, rgba(0, 200, 200, 0.6) 0%, rgba(200, 0, 200, 0.8) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 200, 200, 0.6)), color-stop(100%, rgba(200, 0, 200, 0.8)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-72deg, rgba(0, 200, 200, 0.6) 0%, rgba(200, 0, 200, 0.8) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-72deg, rgba(0, 200, 200, 0.6) 0%, rgba(200, 0, 200, 0.8) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-72deg, rgba(0, 200, 200, 0.6) 0%, rgba(200, 0, 200, 0.8) 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, rgba(0, 200, 200, 0.6) 0%, rgba(200, 0, 200, 0.8) 100%);
+  /* W3C */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.fotorama__content-inner {
+  padding: 100px 60px 30px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3.125em;
+  background: url(http://ledgard.le-genda.com/img/stamp.png) no-repeat;
+  background-position: left 50% bottom 40px;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+.fotorama__content-inner > span {
+  font-size: 1.2em;
+}
+@media (max-width: 991px) {
+  .fotorama__content-inner {
+    font-size: 2.4em;
+    background: url(http://ledgard.le-genda.com/img/stamp2.png) no-repeat left 50% bottom 10%;
+  }
+}
+@media (max-width: 767px) {
+  .fotorama__content-inner {
+    font-size: 1.5em;
+  }
+}
+/* ===== | icomoon | ===== */
+@font-face {
+  font-family: 'icomoon';
+  src: url('https://raw.githubusercontent.com/adamwdraper/styles/master/fonts/icomoon.eot');
+  src: url('https://raw.githubusercontent.com/adamwdraper/styles/master/fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('https://raw.githubusercontent.com/adamwdraper/styles/master/fonts/icomoon.svg#icomoon') format('svg'), url('https://raw.githubusercontent.com/adamwdraper/styles/master/fonts/icomoon.woff') format('woff'), url('https://raw.githubusercontent.com/adamwdraper/styles/master/fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-replay:before {
+  content: "\e600";
+}
+.icon-envelope:before {
+  content: "\e601";
+}
+.icon-play:before {
+  content: "\e603";
+}
+.icon-tag:before {
+  content: "\e604";
+}
+.icon-tags:before {
+  content: "\e605";
+}
+.icon-calendar:before {
+  content: "\e606";
+}
+.icon-bubble:before {
+  content: "\e607";
+}
+.icon-bubbles:before {
+  content: "\e608";
+}
+.icon-link:before {
+  content: "\e60a";
+}
+.icon-heart:before {
+  content: "\e60b";
+}
+.icon-headphones:before {
+  content: "\e60c";
+}
+.icon-user:before {
+  content: "\e60d";
+}
+.icon-chat:before {
+  content: "\e60e";
+}
+.icon-camera:before {
+  content: "\e60f";
+}
+.icon-music:before {
+  content: "\e610";
+}
+.icon-github:before {
+  content: "\e602";
+}
+.icon-twitter:before {
+  content: "\e609";
+}
+.icon-facebook:before {
+  content: "\e611";
+}
+.icon-googleplus:before {
+  content: "\e612";
+}
+.icon-pinterest:before {
+  content: "\e613";
+}
+/*# sourceMappingURL=style.css.map */
